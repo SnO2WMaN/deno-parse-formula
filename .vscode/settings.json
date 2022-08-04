@@ -12,7 +12,15 @@
       "url": "https://deno.land/x/deno/cli/schemas/config-file.v1.json"
     }
   ],
-
+  "editor.unicodeHighlight.allowedCharacters": {
+    "¬": true,
+    "∧": true,
+    "∨": true,
+    "→": true,
+    "↔": true,
+    "⊤": true,
+    "⊥": true
+  },
   "customLocalFormatters.formatters": [
     {
       "command": "treefmt -q --stdin ${file}",
